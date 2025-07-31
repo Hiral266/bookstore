@@ -25,3 +25,15 @@ POST /register - Register user
 POST /login - Login user (returns JWT token)
 POST /review/:isbn - Add or modify review (requires token)
 DELETE /review/:isbn - Delete your review (requires token)
+
+#Dependency
+1.npm init -y
+2.npm install express body-parser cors
+3.node index.js
+4.npm install express body-parser cors
+5.npm install express
+6.npm install jsonwebtoken
+7.npm install axios
+8.node client.js
+
+
