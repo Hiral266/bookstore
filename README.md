@@ -14,3 +14,14 @@ To help you effectively, I can guide you with:
 💾 Mock data or database (JSON or MongoDB)
 
 📦 Required dependencies: express, axios, jsonwebtoken, body-parser, cors, fs (if using JSON)
+
+#Endpoint
+GET /books - Get all books
+GET /books/isbn/:isbn - Get book by ISBN
+GET /books/author/:author - Get books by author
+GET /books/title/:title - Get books by title
+GET /books/review/:isbn - Get reviews for a book
+POST /register - Register user
+POST /login - Login user (returns JWT token)
+POST /review/:isbn - Add or modify review (requires token)
+DELETE /review/:isbn - Delete your review (requires token)
